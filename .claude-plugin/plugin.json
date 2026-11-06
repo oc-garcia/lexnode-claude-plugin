@@ -1,0 +1,20 @@
+{
+  "name": "lexnode",
+  "displayName": "LexNode",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/oc-garcia/lexnode-claude-plugin",
+  "description": "Consulte processos e publicações e pesquise jurisprudência com precedentes do STJ pela sua conta LexNode.",
+  "author": {
+    "name": "OG Sistemas",
+    "email": "contato@lexnode.com.br",
+    "url": "https://www.lexnode.com.br"
+  },
+  "homepage": "https://www.lexnode.com.br/docs/agentes",
+  "documentationUrl": "https://www.lexnode.com.br/docs/agentes",
+  "supportUrl": "https://www.lexnode.com.br/contato",
+  "privacyPolicyUrl": "https://www.lexnode.com.br/legal/privacidade",
+  "termsOfServiceUrl": "https://www.lexnode.com.br/legal/termos",
+  "icon": "./assets/logo.png",
+  "defaultEnabled": false
+}

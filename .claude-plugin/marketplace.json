@@ -1,0 +1,16 @@
+{
+  "name": "lexnode-plugins",
+  "description": "Plugin LexNode para consultar dados jurídicos brasileiros pela sua conta.",
+  "owner": {
+    "name": "OG Sistemas",
+    "email": "contato@lexnode.com.br"
+  },
+  "plugins": [
+    {
+      "name": "lexnode",
+      "source": "./",
+      "description": "Consulte processos, publicações e jurisprudência pela sua conta LexNode.",
+      "version": "1.0.0"
+    }
+  ]
+}
