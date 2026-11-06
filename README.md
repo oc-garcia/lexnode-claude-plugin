@@ -1,9 +1,17 @@
 # LexNode
 
-Consulte processos e publicações do Judiciário brasileiro e pesquise jurisprudência
-com precedentes qualificados do STJ pela sua conta LexNode. O pacote oferece dois
-fluxos: consultar ou retomar um processo com as publicações disponíveis e pesquisar
-jurisprudência com leitura das referências encontradas.
+Consulte processos e publicações do Judiciário brasileiro, acompanhe sua carteira e
+pesquise jurisprudência com precedentes qualificados do STJ pela sua conta LexNode.
+O pacote oferece cinco fluxos:
+
+- `consultar-processo`: ler o que o acervo já guarda de um processo, atualizar a
+  consulta quando pedido ou retomar uma consulta anterior;
+- `pesquisar-jurisprudencia`: pesquisar decisões e conferir precedentes do STJ;
+- `acompanhar-carteira`: criar e gerenciar acompanhamentos por processo, OAB,
+  nome de parte, termo ou CNPJ, somente quando você pedir;
+- `conferir-novidades`: ler o que chegou dos acompanhamentos, com o conteúdo
+  completo de cada achado;
+- `consultar-calendario`: consultar o calendário forense como referência.
 
 Ative o plugin quando quiser usá-lo e autorize a conexão com sua conta. A conexão
 usa OAuth: a senha é digitada na tela de login do LexNode, nunca na conversa. A
@@ -31,10 +39,17 @@ aqui não representa aprovação ou inclusão no marketplace oficial da Anthropi
 ## Consultas e conteúdo
 
 Informe o número do processo e o tribunal, ou o identificador de uma consulta
-anterior. A consulta pode continuar em segundo plano; o limite de tentativas não
-é uma previsão de entrega. As publicações incluídas na consulta são as já
-disponíveis no acervo. Essa leitura não busca novamente o diário nem inicia seu
-acompanhamento contínuo. As continuações permitem acessar o conteúdo completo.
+anterior. A leitura do acervo entrega o que já está disponível, com a data de cada
+informação, sem pedir atualização; a atualização é uma consulta própria, que pode
+continuar em segundo plano. O limite de tentativas não é uma previsão de entrega.
+As publicações incluídas são as já disponíveis no acervo. Ler ou consultar não
+busca novamente o diário nem inicia acompanhamento contínuo. As continuações
+permitem acessar o conteúdo completo.
+
+Acompanhamentos só são criados quando você pede, com o alvo confirmado, e ocupam
+vagas do plano; o acompanhamento de um processo pode incluir também as publicações
+do número, ocupando uma vaga a mais de monitores de tema. A leitura das novidades sem filtros
+marca os eventos entregues como lidos para essa conexão.
 
 Na pesquisa jurídica, informe a questão, a matéria e eventuais limites de tribunal
 ou período. Leia as decisões encontradas e confira as referências na fonte
@@ -51,7 +66,7 @@ O único serviço remoto declarado é https://api.lexnode.com.br/mcp. As skills
 utilizam as ferramentas dessa conexão, sem executar scripts, instalar programas
 ou ler arquivos locais. Os dados enviados nas chamadas são tratados pelo LexNode
 conforme a política de privacidade, e as respostas são compartilhadas com o
-assistente escolhido. Nenhuma skill cria vigília sem pedido de acompanhamento.
+assistente escolhido. Nenhuma skill cria acompanhamento sem pedido seu.
 
 Se a sessão expirar, reconecte a conta. Se uma operação estiver indisponível por
 permissão, saldo ou situação da conta, confira a informação retornada e procure

@@ -10,7 +10,7 @@
       "name": "lexnode",
       "source": "./",
       "description": "Consulte processos, publicações e jurisprudência pela sua conta LexNode.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }

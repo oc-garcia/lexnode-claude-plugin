@@ -1,10 +1,10 @@
 {
   "name": "lexnode",
   "displayName": "LexNode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": "https://github.com/oc-garcia/lexnode-claude-plugin",
-  "description": "Consulte processos e publicações e pesquise jurisprudência com precedentes do STJ pela sua conta LexNode.",
+  "description": "Consulte processos e publicações, acompanhe a carteira, confira novidades e o calendário forense e pesquise jurisprudência com precedentes do STJ pela sua conta LexNode.",
   "author": {
     "name": "OG Sistemas",
     "email": "contato@lexnode.com.br",
