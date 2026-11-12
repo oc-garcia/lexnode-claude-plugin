@@ -57,8 +57,13 @@ oficial. O registro de precedentes qualificados disponível corresponde ao STJ;
 não inclui automaticamente os temas de outros tribunais.
 
 Cobertura e disponibilidade variam. A data de captura descreve o dado recebido,
-sem garantir a ausência de atos posteriores. Calendários são apenas referência;
-cabe ao advogado conferir as fontes oficiais e calcular seu próprio prazo.
+sem garantir a ausência de atos posteriores. O calendário só apoia a conferência
+de datas potencialmente relevantes e pode conter omissões ou defasagens. Não
+calcula, valida nem certifica prazo, termo inicial ou vencimento. Qualquer
+simulação é uma estimativa não validada, condicionada às premissas declaradas e
+às conferências pendentes. A data no diário, isolada, não define publicação,
+intimação ou termo inicial. Cabe ao advogado verificar fontes oficiais, regras e
+atos aplicáveis ao caso e validar a contagem final.
 
 ## Conexão e suporte
 
