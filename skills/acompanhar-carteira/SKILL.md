@@ -1,11 +1,18 @@
 ---
 name: acompanhar-carteira
-description: Cria, lista, pausa, retoma ou exclui acompanhamentos do LexNode por processo, OAB, nome de parte, termo ou CNPJ, somente quando o usuário pedir acompanhamento contínuo.
+description: Confere a cobertura de uma carteira e gerencia acompanhamentos do LexNode por processo, OAB, parte, termo ou CNPJ; criação e mudanças exigem pedido de acompanhamento.
 ---
 
-Use este fluxo apenas quando o usuário pedir para acompanhar, vigiar ou gerenciar
-acompanhamentos. Consultar um processo, ler uma publicação ou pesquisar
-jurisprudência não é pedido de acompanhamento. Antes de criar, confirme o tipo e o
+Use este fluxo para conferir a cobertura da carteira ou, quando o usuário pedir,
+acompanhar, vigiar ou gerenciar acompanhamentos. A conferência com `conferir_carteira`
+é leitura: informe o padrão de nome e a janela, considerando o custo declarado.
+O retorno é uma amostra de correspondências textuais, não uma lista comprovada de
+empresas do grupo. Nome parecido, participantes do mesmo ato e advogado em comum
+não demonstram identidade ou vínculo societário. Ausência de resultados não prova
+que a carteira está coberta. Não transforme sugestões em monitores automaticamente.
+
+Consultar um processo, ler uma publicação ou pesquisar jurisprudência não é pedido
+de acompanhamento. Antes de criar, confirme o tipo e o
 alvo exatos; um cadastro errado ocupa vaga do plano e pode não encontrar nada.
 
 1. Comece por `listar_monitores` para ver o que a conta já acompanha e evitar um
@@ -19,7 +26,9 @@ alvo exatos; um cadastro errado ocupa vaga do plano e pode não encontrar nada.
      CNPJ). Para ligar ou desligar as publicações de um
      monitor de processo existente, use `configurar_publicacoes_do_monitor` com
      `monitorId` e `enabled`;
-   - inscrição na OAB: `criar_monitor_de_oab`, com `oabNumber` e `oabState`;
+   - inscrição na OAB: `criar_monitor_de_oab`, com `oabNumber` só em dígitos e
+     `oabState` como seccional válida. A validação de formato não confirma que a
+     inscrição existe ou está ativa;
    - nome de parte: `criar_monitor_de_parte`, com `partyName`. Para empresa, use
      a razão social completa;
    - expressão livre: `criar_monitor_de_termo`, com `term`;
